@@ -1,11 +1,11 @@
-# 代码详情-CZY
-* [`game2048/`](game2048/): the main package.
-   * [`agents.py`](game2048/agents.py): 其中的`CZY` class是自主定义的Agent
-   * [`model2.py`](game2048/model2.py): 保存了CNN模型框架
-* [`trainmoel/`](trainmodel/): 保存了训练网络的py文件和参数文件
-   * [`train2.py`](trainmodel/train2.py): 训练CNN网络
-* [`CREATEDATA.py`](CREATEDATA.py): 用于生成训练数据的程序
-* [`evaluate.py`](evaluate.py): evaluate my self-defined agent.点开此程序运行代码即可。
+# Brief Introduction
+* [`game2048/`](game2048/): codes for 2048.
+   * [`agents.py`](game2048/agents.py): where the agent is defined.
+   * [`model2.py`](game2048/model2.py): saves networks and models.
+* [`trainmoel/`](trainmodel/): configs and trained models.
+   * [`train2.py`](trainmodel/train2.py): train the CNN.
+* [`CREATEDATA.py`](CREATEDATA.py): generate training data, including data augmentation.
+* [`evaluate.py`](evaluate.py): evaluate my self-defined agent. 点开此程序运行代码即可。
 
 # 2048-api
 A 2048 game api for training supervised learning (imitation learning) or reinforcement learning agents
